@@ -118,7 +118,8 @@ main .card-middle p{
     width: 66.66%;
     color: var(--color-secondary);
     background: url(../images/background2.jpeg) no-repeat;
-    background-size: cover 
+    background-size: cover;
+    background-position: 50% 100%;
 }
 
 .card-greater-righter-rightside-column{
@@ -162,7 +163,6 @@ main .card-middle p{
     margin: 3.75rem 0;
     display: flex;
     justify-content: center;
-
 }
 
 .card-center-leftside-img{
@@ -406,10 +406,72 @@ main .card-middle p{
     background-size: cover;
 }
 
+/* CARD INCRUSTED */
+.card-incrusted-bg{
+    background: url(../images/background2.jpeg) no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;   
+    width: 100vw;
+    height: 702px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-incrusted{
+    display: flex;
+    width: 1017px;
+}
+.card-incrusted-img{
+    background: url(../images/people6.jpeg) no-repeat;
+    background-size: cover;
+}
+.card-incrusted-img{
+    padding: var(--padding-box);
+    padding-bottom: 1.1875rem;
+    width: 324px;
+    height: 493px;
+}
+.card-incrusted-form{
+    width: 567px;
+    padding: var(--padding-box);
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.form-div{
+    margin-bottom: 2.5rem;
+    color:#454545;
+}
+
+.form-div label{
+    font-size: 1rem;
+}
+.form-div input,
+.form-div textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    padding: 0.625rem 0.75rem;
+}
+
+/* .form-div input:hover{
+    border-bottom: 2px solid #000;
+    border-radius: 0.25rem;
+} */
+
+.form-div-button input{
+    padding: 0.625rem 1.875rem;
+    border: 2px solid #000;
+    background-color: var(--color-secondary);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 /* FOOTER */
-
 footer{
     background-color: #333333;
     display: flex;
@@ -443,6 +505,10 @@ footer{
 .footer-bottom a,
 .footer-bottom p{
     font-size: 12.8px;
+}
+
+.footer-bottom p{
+    color: var(--color-secondary);
 }
 
 .footer-bottom a{
