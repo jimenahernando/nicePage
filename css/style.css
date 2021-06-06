@@ -1,0 +1,87 @@
+/* GENERAL */
+:root{
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary:'Open Sans', sans-serif;
+    --color-primary: #111;
+    --color-secondary: #fff;
+    --color-third: #e9dcdd;
+}
+
+* { 
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+header{
+    height: 4.5rem;
+}
+/* CARD MIDDLE */
+main .card-middle{
+    display: flex;
+    height: 41rem;
+}
+
+main .card-middle p{
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+}
+
+.card-middle-leftside{
+    background-color: var(--color-third);
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem 1.875rem 1.875rem 5rem;
+}
+
+.card-middle-leftside h2{
+    font-size: 6rem;
+    font-weight: 700;
+
+}
+
+.card-middle-leftside h3{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 10rem 0 0 11.75rem; 
+}
+
+.card-middle-leftside p{
+    font-weight: 300;
+    margin: 1.25rem 0 0 11.75rem; 
+}
+
+.card-middle-rightside{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-middle-rightside img{
+    height: 497px;
+    width: 400px;   
+}
+
+.card-middle-rightside p{
+    margin: 1.25rem auto 0;
+    width: 281px;
+    text-align: center;
+}
+
+/* CARD GREATER RIGHTER */
+.card-greater-righter{
+    display: flex;
+}
+.card-greater-righter-leftside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35.87rem;
+}
