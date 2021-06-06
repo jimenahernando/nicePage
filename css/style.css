@@ -8,13 +8,21 @@
 }
 
 * { 
-  font-family: Arial, sans-serif;
+  font-family: var(--font-secondary);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: var(--font-primary);
+}
+
+p{
+    font-family: var(--font-secondary);
 }
 
 /* HEADER */
@@ -28,7 +36,6 @@ main .card-middle{
 }
 
 main .card-middle p{
-    font-family: var(--font-secondary);
     font-size: 16px;
 }
 
@@ -116,13 +123,64 @@ main .card-middle p{
     text-align: center;
 }
 
+
 .card-greater-righter-rightside-column-title h1{
     font-size: 96px;
 }
 .card-greater-righter-rightside-column-title h5{
     font-size: 20px;
+    font-weight: 400;
+    margin: 1.25rem 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .card-greater-righter-rightside-column-description p{
     margin-top: 1.375rem;
+}
+
+/* CONTAINER CENTER */
+.container-center{
+    display: flex;
+    justify-content: center;
+}
+
+.card-center{
+    margin: 3.75rem 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-center-leftside-img{
+    background: url(../images/manWithGlasses.jpeg) no-repeat;
+    background-size: cover;
+    width: 570px;
+    height:678px;
+}
+
+.card-center-rightside{
+    width: 570px;
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-center-rightside-row h4{
+    font-size: 36px;
+    text-align: right;
+    margin-top: 6.25rem;
+}
+
+.card-center-rightside-row p{
+    text-align: right;
+    margin-top: 1.25rem;
+    line-height: 1.6;
+}
+
+.card-center-rightside-row .line{
+    width: 456px;
+    margin: 1.875rem 0 0 auto;
+    border-bottom: 1px solid #454545;
 }
