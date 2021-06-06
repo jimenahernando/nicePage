@@ -2,6 +2,7 @@
 :root{
     --font-primary: 'Roboto', sans-serif;
     --font-secondary:'Open Sans', sans-serif;
+    --font-third: 'Montserrat', sans-serif;
     --color-primary: #111;
     --color-secondary: #fff;
     --color-third: #e9dcdd;
@@ -313,4 +314,129 @@ main .card-middle p{
 .img8{
     background: url(../images/people8.jpeg) no-repeat;
     background-size: cover;
+}
+
+/* CIRCEL CARD */
+.circleCard{
+    background-color: var(--color-third);
+    border-top: 1px solid #d9d9d9;
+}
+
+.circleCard-ml{
+    margin-left: 23.8125rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.circleCard-middle,
+.circleCard-rightside{
+    background-color: var(--color-secondary);
+    flex-basis: 50%;
+}
+
+.circleCard-middle{
+    padding: var(--padding-box);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circleCard-middle h2{
+    font-size: 36px;
+}
+
+.circleCard-rightside{
+    display: flex;
+    flex-direction: column;
+}
+
+.circleCard-rightside-row{
+    display: flex;
+}
+
+.circleCard-rightside-row-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.circleCard-rightside-row-description,
+.circleCard-rightside-row-image{
+    padding: var(--padding-box);
+}
+
+.circleCard-rightside-row-image .circle-img{
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+}
+
+.circleCard-rightside-row-image .img1{
+    background: url(../images/people8.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.circleCard-rightside-row-image .img2{
+    background: url(../images/people7.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.circleCard-rightside-row-description h5{
+    font-family: var(--font-third);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2.6875rem 10.5rem 0 0;
+
+}
+
+.circleCard-rightside-row-description p{
+    margin-top: 1.25rem;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+
+}
+.container-footers{
+    color: #fff;
+    text-align: center;
+    width: 1140px;
+}
+
+.footer-top p {
+    width: 417px;
+    margin: 3.0625rem auto;
+    font-size: 14px;
+}
+
+/* PLUS FOOTER */
+.plus-footer{
+    background-color: #333333;
+    text-align: center;  
+    height: 65px;
+}
+
+.footer-bottom{
+    height: 100%;
+    padding: 1rem;
+}
+
+.footer-bottom a,
+.footer-bottom p{
+    font-size: 12.8px;
+}
+
+.footer-bottom a{
+    color: #adcce9;
+}
+
+.footer-bottom a:hover{
+    color: #333333;
+    text-decoration: none;
 }
