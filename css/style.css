@@ -30,6 +30,18 @@ p{
 header{
     height: 4.5rem;
 }
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 0 23.81rem;
+
+}
+.nav i{
+    font-size: 1.75rem;
+    margin: 1.25rem 0 1.25rem auto;
+}
+
 /* CARD MIDDLE */
 main .card-middle{
     display: flex;
@@ -104,8 +116,8 @@ main .card-middle p{
     flex-direction: column;
     width: 66.66%;
     color: var(--color-secondary);
-    /* background-image: ; */
-    background: #000;
+    background: url(../images/background2.jpeg) no-repeat;
+    background-size: cover 
 }
 
 .card-greater-righter-rightside-column{
