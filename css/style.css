@@ -351,19 +351,43 @@ main .card-middle p{
 }
 
 .circleCard-rightside-row{
+    height: 286px;
     display: flex;
+    align-items: center;
+}
+
+.circleCard-rightside-row-description,
+.circleCard-rightside-row-image{
+    padding: var(--padding-box);
 }
 
 .circleCard-rightside-row-description{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    height: 286px;
 }
 
+.circleCard-rightside-row-description h5{
+    font-family: var(--font-third);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2.6875rem 10.5rem 0 0;
+}
 
-.circleCard-rightside-row-description,
+.circleCard-rightside-row-description p{
+    margin-top: 1.25rem;
+    width: 336.438px;
+}
+
 .circleCard-rightside-row-image{
-    padding: var(--padding-box);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 286px;
 }
 
 .circleCard-rightside-row-image .circle-img{
@@ -382,18 +406,7 @@ main .card-middle p{
     background-size: cover;
 }
 
-.circleCard-rightside-row-description h5{
-    font-family: var(--font-third);
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 2.6875rem 10.5rem 0 0;
 
-}
-
-.circleCard-rightside-row-description p{
-    margin-top: 1.25rem;
-}
 
 /* FOOTER */
 
