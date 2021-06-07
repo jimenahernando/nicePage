@@ -119,7 +119,7 @@ main .card-middle p{
     color: var(--color-secondary);
     background: url(../images/background2.jpeg) no-repeat;
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: bottom;
 }
 
 .card-greater-righter-rightside-column{
@@ -167,7 +167,8 @@ main .card-middle p{
 
 .card-center-leftside-img{
     background: url(../images/manWithGlasses.jpeg) no-repeat;
-    background-size: cover;
+    background-size: 110%;
+    background-position: center;
     width: 570px;
     height:678px;
 }
@@ -279,8 +280,8 @@ main .card-middle p{
 }
 
 .image{
-    width: 298px;
-    height: 276px; 
+    min-width: 200px;
+    min-height: 200px;
 }
 
 .img1{
