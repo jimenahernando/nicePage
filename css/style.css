@@ -105,7 +105,7 @@ main .card-middle p{
     align-items: center;
     justify-content: center;
     padding: var(--padding-box);
-    width: 33.33%;
+    min-width: 30vw;
 }
 
 .card-greater-righter-leftside h2{
@@ -115,11 +115,11 @@ main .card-middle p{
 .card-greater-righter-rightside{
     display: flex;
     flex-direction: column;
-    width: 66.66%;
+    min-width: 70vw;
     color: var(--color-secondary);
     background: url(../images/background2.jpeg) no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom right;
 }
 
 .card-greater-righter-rightside-column{
@@ -136,7 +136,6 @@ main .card-middle p{
 .card-greater-righter-rightside-column-title{
     text-align: center;
 }
-
 
 .card-greater-righter-rightside-column-title h1{
     font-size: 96px;
@@ -169,8 +168,8 @@ main .card-middle p{
     background: url(../images/manWithGlasses.jpeg) no-repeat;
     background-size: 110%;
     background-position: center;
-    width: 570px;
-    height:678px;
+    min-width: 570px;
+    min-height:678px;
 }
 
 .card-center-rightside{
@@ -200,7 +199,7 @@ main .card-middle p{
     border-bottom: 1px solid #454545;
 }
 
-/* EXPENDED */
+/* TO RIGHT */
 .toRight{
     width: calc(((100% - 1140px) / 2) + 1140px);
     margin: 3.75rem 0 0 auto;
@@ -259,6 +258,7 @@ main .card-middle p{
 
 .expanded-leftside{
     padding: var(--padding-box);
+    min-width: 35vw;
 }
 
 .expanded-leftside h2{
